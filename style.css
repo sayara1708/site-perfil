@@ -2,7 +2,7 @@ body{
     margin: 0;
     padding: 0;
     height: 100vh;
-    width: 100vw;
+    max-width:  100vw;
 }
 
 /*IMAGEM DE FUNDO DE TODAS AS PAGINAS*/
@@ -24,7 +24,7 @@ section   {
 
 /*MENU DE ACESSO*/
 nav{
-   position: fixed;
+   position: absolute;
     top: 0;
     left: 0;
     width: 100%;
